@@ -1,4 +1,4 @@
-fun main() {
+fun Main2() {
     val pi = 3.14
     var radius = 5
 
