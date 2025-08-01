@@ -12,3 +12,12 @@ class Student(val name: String, val roll: Int, val marks: Int) {
         println("Name: $name, Roll: $roll, Marks: $marks, Grade: ${calculateGrade()}")
     }
 }
+fun main() {
+    val student1 = Student("Alice", 1, 82)
+    val student2 = Student("Bob", 2, 68)
+    val student3 = Student("Charlie", 3, 45)
+
+    student1.printDetails()
+    student2.printDetails()
+    student3.printDetails()
+}
